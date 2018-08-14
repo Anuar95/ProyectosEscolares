@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Temperatura.exe" version="1.0.0.0" publicKeyToken="a67243cf03548c4d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Temperatura" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Temperatura.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Temperatura.exe" size="10208">
+      <assemblyIdentity name="Temperatura" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>RawnlFwMS5mVy1WCxKwB8Kl3UbGE7Ymo1opS2EyIZZ0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Temperatura.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-GR9GEP13\Anuar" issuerKeyHash="9583c11b6fbefb683ec966de6a2ab92b08e7e0f2" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>814v8HuiQGcCVyTqtFSCtHVEFhG6owHyNZh8yEpQRzs=</DigestValue></Reference></SignedInfo><SignatureValue>ONy/wLUXAERljA5QwfJwZkuqacbng/EUP/swNYHGMwcXl43SsMjrO+WbddqY5bWjx5pG/Q117I4qv6aPKAHXsfOC/pWQO68sGVnRLxqPAQ0BwsonJTHCsWCwrA4f8M8Lgg2mEw/8DX/AUi5Pp/nqByKd2NX59yOMP+KT1NqWq0g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>ycm06skPW7TKAkJgdPFJ/v4ONDN8WnhN1VIHQYlWVq/7sSogalHPUXXJqoPiAkuUOh+SqEvdHoKYyjticEImI+BDwf/XXxNlj17AFMgU0cxUqfpJZFQTtr4lE8jpxJOYOtAztqqzcUGtV5Skn6RL+2AKHq7kwnH5pUvNXXThK+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3b47504ac87c9835f201a3ba11164475b48254b4ea2457026740a27bf02f5ef3" Description="" Url=""><as:assemblyIdentity name="Temperatura.exe" version="1.0.0.0" publicKeyToken="a67243cf03548c4d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-GR9GEP13\Anuar</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Ep1cyjZgYCBtTqRcaHx9OXesf5WYNNCqxOed1DXl7S0=</DigestValue></Reference></SignedInfo><SignatureValue>g4LJtoIIMQsZ/nCsUkWvltsZpWGucRubCARE+RUcrhFhJwsSKE6kHy8JXOmFb5fL6vobSFKe4unpQtyhnriCejFeqs2is5Db5DeJn8u26P6O3YE1X6fWx0KfbRfAlwCbDo1J54otvJAn40F2yEaZGpx6r8VTC5CiXRyGPUVczgk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>ycm06skPW7TKAkJgdPFJ/v4ONDN8WnhN1VIHQYlWVq/7sSogalHPUXXJqoPiAkuUOh+SqEvdHoKYyjticEImI+BDwf/XXxNlj17AFMgU0cxUqfpJZFQTtr4lE8jpxJOYOtAztqqzcUGtV5Skn6RL+2AKHq7kwnH5pUvNXXThK+E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQFceoJfwB3alFt4KB5+THRjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBHAFIAOQBHAEUAUAAxADMAXABBAG4AdQBhAHIwHhcNMTgwODA3MDQxOTEyWhcNMTkwODA3MTAxOTEyWjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBHAFIAOQBHAEUAUAAxADMAXABBAG4AdQBhAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMnJtOrJD1u0ygJCYHTxSf7+DjQzfFp4TdVSB0GJVlav+7EqIGpRz1F1yaqD4gJLlDofkqhL3R6CmMo7YnBCJiPgQ8H/118TZY9ewBTIFNHMVKn6SWRUE7a+JRPI6cSTmDrQM7aqs3FBrVeUpJ+kS/tgCh6u5MJx+aVLzV104SvhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAXYOd+da4rZK+O5aWxLbQhgcHGE43jzDxsxSzlnc6+BEQMBSNlxeohkYWv4J9m4PC02buxCfPd2dKBcVz985tnmq65VBBB0kKEdqzzrK3V7AeiQy51qEFXKLr2m0h/jBkG+sfLOfqYNZe2TVjRh0OJMi6Z87Hb6xnE8A4WEbqd2s=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
